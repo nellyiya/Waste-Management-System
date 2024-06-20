@@ -24,106 +24,107 @@ wastexpert.com
 
 **Project Setup**
 
-**Web Framework**: Node.js
+   **Web Framework**: Node.js
 
-**Database Interaction**: SQLAlchemy ORM
+   **Database Interaction**: SQLAlchemy ORM
 
-**Database:** MongoDB
+   **Database:** MongoDB
 
-**CI/CD Pipeline**: GitHub Actions
+   **CI/CD Pipeline**: GitHub Actions
 
 **Frontend Development**
-**Technologies**: HTML, CSS, JavaScript
 
-**Design**:
-     Responsive design ensuring usability across various devices
+   **Technologies**: HTML, CSS, JavaScript
+
+   **Design**:
+        Responsive design ensuring usability across various devices
      
-     Modern, user-friendly UI using the Bootstrap CSS framework
+        Modern, user-friendly UI using the Bootstrap CSS framework
 
 **Backend Development**
 
-**Technologies**: Flask and Node.js
+   **Technologies**: Flask and Node.js
 
-**API**: RESTful API endpoints
+   **API**: RESTful API endpoints
 
-**Database Interaction**: Direct SQL writing
+   **Database Interaction**: Direct SQL writing
 
-**User Management**: Implemented user authentication and authorization
+   **User Management**: Implemented user authentication and authorization
 
-**Deployment and Management**: Utilized Fabric for deployment tasks
+   **Deployment and Management**: Utilized Fabric for deployment tasks
 
-**Features and Functionalities**
+ **Features and Functionalities**
 
-**User Registration and Login**
+   **User Registration and Login**
 
-Implemented user registration and login functionalities
+      Implemented user registration and login functionalities
 
-Utilized Flask-Login for managing user sessions
+      Utilized Flask-Login for managing user sessions
 
-**Waste Collection Schedule**
+   **Waste Collection Schedule**
 
-Household users can schedule waste collection
+      Household users can schedule waste collection
 
-Users receive notifications about their collection schedules
+      Users receive notifications about their collection schedules
 
-**Recycling Tracker**
+   **Recycling Tracker**
 
-Feature for users to track their recycling efforts
+      Feature for users to track their recycling efforts
 
-Users can view their environmental impact metrics
+      Users can view their environmental impact metrics
 
-**Waste Collection Services Management**
+   **Waste Collection Services Management**
 
-Waste collection services can manage routes, schedules, and track performance
+      Waste collection services can manage routes, schedules, and track performance
 
-**Admin Dashboard**
+  **Admin Dashboard**
 
-Admin dashboard for monitoring system performance
+      Admin dashboard for monitoring system performance
 
-Allows administrators to manage users
+      Allows administrators to manage users
 
 **Data Structures and Algorithms**
 
-**Data Structures**: Used appropriate data structures such as graphs
+   **Data Structures**: Used appropriate data structures such as graphs
 
-**Algorithms**: Implemented algorithms for scheduling, route optimization, and data analytics
+   **Algorithms**: Implemented algorithms for scheduling, route optimization, and data analytics
 
 **Testing**
 
-**Unit Tests**: Written for critical parts of the application using the Unittest module
+   **Unit Tests**: Written for critical parts of the application using the Unittest module
 
-**Code Coverage**: Ensured high code coverage and reliability
+   **Code Coverage**: Ensured high code coverage and reliability
 
 **Continuous Integration and Deployment**
 
-**CI/CD Pipeline**: Set up to automatically run tests and deploy the application using GitHub Actions
+   **CI/CD Pipeline**: Set up to automatically run tests and deploy the application using GitHub Actions
 
-**Deployment Services**: Deployed using services like Heroku or AWS
+   **Deployment Services**: Deployed using services like Heroku or AWS
 
 **Hosting**
 
-The application is hosted on a free online hosting service with the domain name WasteXpert.
+   The application is hosted on a free online hosting service with the domain name WasteXpert.
 
 **References**
 
-**MongoDB Documentation**: MongoDB Docs
+   **MongoDB Documentation**: MongoDB Docs
 
-**React Documentation**: React Docs
+   **React Documentation**: React Docs
 
-**Node.js Documentation**: Node.js Docs
+   **Node.js Documentation**: Node.js Docs
 
-**Express.js Documentation**: Express Docs
+   **Express.js Documentation**: Express Docs
 
 
 **Collaborators**
 
-Vestine Pendo
+   Vestine Pendo
 
-Yvette Kwizera
+   Yvette Kwizera
 
-Nelly Iyabikoze
+   Nelly Iyabikoze
 
-Jean Piere Niyongabo
+   Jean Piere Niyongabo
 
-Irenee Gisubizo Dusingizimana
+   Irenee Gisubizo Dusingizimana
 
