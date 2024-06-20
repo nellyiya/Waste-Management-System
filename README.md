@@ -36,7 +36,8 @@ wastexpert.com
 
 **Frontend Development**
 
-   **Technologies**: HTML, CSS, JavaScript
+   **Technologies**: nodejs/express
+   HTML, CSS, JavaScript
 
    **Design**:
         Responsive design ensuring usability across various devices
@@ -45,7 +46,7 @@ wastexpert.com
 
 **Backend Development**
 
-   **Technologies**: Flask and Node.js
+   **Technologies**: nodejs/express
 
    **API**: RESTful API endpoints
 
