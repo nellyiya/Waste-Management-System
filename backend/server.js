@@ -47,18 +47,20 @@ app.post('/api/register', (req, res) => {
 });
 //Register API
 // POST /api/register endpoint
-app.post('/api/schedul', (req, res) => {
-    const sql = "INSERT INTO `users`(`email`, `first_name`, `second_name`, `phone`, `password`) VALUES (?, ?, ?, ?, ?)";
-        const values = [req.body.email, req.body.fname, req.body.lname, req.body.phone, pass1];
+app.post('/api/schedule', (req, res) => {
+    const sql = "INSERT INTO `schedule`(`UserID`, `ScheduleDate`, `CollectionType`, `EnableNotification`) VALUES (?, ?, ?, ?)";
 
-        db.query(sql, values, (err, result) => {
-            if (err) {
-                return res.status(500).json({ Error: 'Failed To Register'});
-            } else {
-                return res.status(200).json({ status: 200,msg:'Successfully Registered' });
-            }
-        });
+    const values = [req.body.UserID, req.body.ScheduleDate, req.body.CollectionType, req.body.EnableNotification];
+
+    db.query(sql, values, (err, result) => {
+        if (err) {
+            return res.status(500).json({ Error: 'Failed To Schedule' });
+        } else {
+            return res.status(200).json({ status: 200, msg: 'Successfully Scheduled' });
+        }
+    });
 });
+
 
 //Login API
 app.post('/api/login', (req, res) => {
