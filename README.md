@@ -1,11 +1,11 @@
-Smart Waste Management System
+**Smart Waste Management System**
 
-#Project Overview
+**Project Overview**
 
 The Smart Waste Management System, named WasteXpert, allows users to manage waste collection schedules, track recycling efforts, and view environmental impact metrics. 
 The system supports three primary user roles: Household Users, Waste Collection Services, and Administrators.
 
-#Key Features
+**Key Features**
 
     Web Framework: Node.js
     Database Interaction: SQLAlchemy ORM
@@ -14,15 +14,22 @@ The system supports three primary user roles: Household Users, Waste Collection 
 
 For detailed documentation, please refer to the link below the table of conent.
 
-Table of Contents
+**Table of Contents**
 
    Introduction
+   
    Project Setup
+   
    Frontend Development
+   
    Backend Development
+   
    Features and Functionalities
+   
    Data Structures and Algorithms
+   
    Testing
+   
    Continuous Integration and Deployment
 
 
@@ -34,7 +41,7 @@ Link to the Presentation slides
 
 Link to the deployed website URL
 
-Project Team
+**Project Team**
 
     Nelly Iyvabikoze
     Vestine Pendo
