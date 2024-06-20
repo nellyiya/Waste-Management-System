@@ -5,7 +5,8 @@ Project Inception
 The project began with the recognition of the need for a more efficient and user-friendly waste management system. Traditional waste management systems often lack transparency, user engagement, and efficient scheduling. WasteXpert aims to address these gaps by leveraging modern web technologies.
 
 **Repository**
-https://github.com/nellyiya/Waste-Management-System.git
+
+  https://github.com/nellyiya/Waste-Management-System.git
 
 **Link to The project documentation**
 
