@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Track Recycling</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2>Track Recycling</h2>
+        <form method="post" action="/track">
+            <div class="form-group">
+                <label for="recycling_date">Recycling Date</label>
+                <input type="date" class="form-control" id="recycling_date" name="recycling_date" required>
+            </div>
+            <div class="form-group">
+                <label for="items_recycled">Items Recycled</label>
+                <input type="number" class="form-control" id="items_recycled" name="items_recycled" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
+        <h3 class="mt-5">Recycling History</h3>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Items Recycled</th>
+                    <th>Environmental Impact</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Loop through recycling_data -->
+                {% for

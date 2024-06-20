@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waste Collection Services Management</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>Waste Collection Services Management</h1>
+        <div id="routesPerformance" class="mt-5">
+            <h2>Manage Routes and Performance</h2>
+            <form id="performanceForm">
+                <div class="form-group">
+                    <label for="routeName">Route Name</label>
+                    <input type="text" class="form-control" id="routeName" required>
+                </div>
+                <div class="form-group">
+                    <label for="routeDescription">Route Description</label>
+                    <textarea class="form-control" id="routeDescription" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="performanceDate">Performance Date</label>
+                    <input type="date" class="form-control" id="performanceDate" required>
+                </div>
+                <div class="form-group">
+                    <label for="performanceMetrics">Performance Metrics</label>
+                    <textarea class="form-control" id="performanceMetrics" required></textarea>
+                </div>
+                <button type="button" class="btn btn-primary" onclick="addPerformance()">Add Performance</button>
+            </form>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        function addPerformance() {
+            const routeName = document.getElementById('routeName').value;
+            const routeDescription = document.getElementById('routeDescription').value;
+            const performanceDate = document.getElementById('performanceDate').value;
+            const performanceMetrics = document.getElementById('performanceMetrics').value;
+
+            const requestBody = {
+                name: routeName,
+                description: routeDescription,
+                performance_date: performanceDate,
+                performance_metrics: performanceMetrics
+            };
+
+            fetch('/api/addPerformance', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(requestBody)
+            })
+            .then(response => response.json())
+            .then(data => {
+                alert('Performance added successfully!');
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert('Failed to add performance.');
+            });
+        }
+    </script>
+</body>
+</html>
