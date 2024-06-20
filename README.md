@@ -33,7 +33,7 @@ For detailed documentation, please refer to the link below the table of conent.
    Continuous Integration and Deployment
 
 
-****Link to The project documentation ****
+**Link to The project documentation**
 
      https://docs.google.com/document/d/1vYxWwZfz2Zmvh61sPsop7v8uyMzjBbGEPt-92RyHKoQ/edit?usp=sharing
      
