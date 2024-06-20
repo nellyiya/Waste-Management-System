@@ -39,6 +39,7 @@ For detailed documentation, please refer to the link below the table of conent.
      
 **Link to the Presentation slides**
 
+     https://docs.google.com/presentation/d/1HfUq_hD_lXsZU5S_UObWi1ZtytHYFIC7qscSndAc4v4/edit?usp=sharing
 
 **Link to the deployed website URL**
 
