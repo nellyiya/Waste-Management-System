@@ -35,7 +35,7 @@ For detailed documentation, please refer to the link below the table of conent.
 
 **Link to The project documentation**
 
-     https://docs.google.com/document/d/1vYxWwZfz2Zmvh61sPsop7v8uyMzjBbGEPt-92RyHKoQ/edit?usp=sharing
+      https://docs.google.com/document/d/1vYxWwZfz2Zmvh61sPsop7v8uyMzjBbGEPt-92RyHKoQ/edit?usp=sharing
      
 **Link to the Presentation slides**
 
