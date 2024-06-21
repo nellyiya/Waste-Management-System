@@ -24,6 +24,7 @@ To run the project locally, follow these steps:
 
 ## Clone the repository:
   git clone https://github.com/nellyiya/Waste-Management-System_Backend.git
+  
   cd Backend
 
 Install dependencies:
