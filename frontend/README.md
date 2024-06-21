@@ -14,16 +14,17 @@ The system will have three primary user roles:
 
 # Guidelines and Requirements
 1. Project Setup
-- Web Framework: Use Flask or Node.js.
-- Database: Utilize SQLAlchemy ORM for database interactions with PostgreSQL or MySQL.
+- Web Framework:  Node.js.
+- Database: mongoDB.
  -CI/CD: Implement a CI/CD pipeline using a tool like GitHub Actions.
 2. Frontend Development
-- Technologies: HTML, CSS, JavaScript.
+- Technologies: HTML, CSS, JavaScript,React/NextJs.
 - Design: Ensure responsiveness and a modern, user-friendly UI (consider using Bootstrap).
 3. Backend Development
--Technologies: Flask or Node.js for backend development.
+-Technologies: nodejs/express
+ for backend development.
 - API: Implement RESTful API endpoints.
--Database Interactions: Use SQLAlchemy ORM or write SQL.
+-Database Interactions: mongoDB.
 - Authentication: Implement user authentication and authorization.
 - Deployment: Use Fabric or any tool of your choice for deployment and management tasks.
 - Features and Functionalities
