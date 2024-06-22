@@ -11,13 +11,12 @@ const adminSeeder = async () => {
 
     const adminUserData = {
       fullname: "admin",
-      email: "ykwizera26@gmail.com",
+      email: "admin@waste.com",
       role: "admin",
       telephone: process.env.TELEPHONE,
       isEmailVerified: true,
     };
 
-    const newPassword = "yvette";
     const hashedPassword = await BcryptUtil.hash(process.env.ADMIN_PWD);
 
     adminUserData.password = hashedPassword;
