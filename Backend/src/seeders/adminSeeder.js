@@ -11,7 +11,7 @@ const adminSeeder = async () => {
 
     const adminUserData = {
       fullname: "admin",
-      email: "ykwizera26@gmail.com.com",
+      email: "ykwizera26@gmail.com",
       role: "admin",
       telephone: process.env.TELEPHONE,
       isEmailVerified: true,
